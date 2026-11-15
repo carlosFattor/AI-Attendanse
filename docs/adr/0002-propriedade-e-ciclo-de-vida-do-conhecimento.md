@@ -1,0 +1,3 @@
+# Conhecimento é privado e derivado dos documentos do usuário
+
+Cada usuário é proprietário de uma base de conhecimento privada, reutilizável entre conversas; a identidade OIDC determina essa propriedade, e um ID autorizado para a rota de ingestão é apenas uma verificação adicional. Um cliente local envia documentos selecionados à aplicação principal, que os processa de forma assíncrona sem worker separado. Os originais são mantidos apenas durante tentativas limitadas e descartados após sucesso ou falha definitiva; o conhecimento derivado permanece até exclusão pelo usuário, incluindo cópias no provedor quando suportado e com prazo de expiração de backup documentado.
